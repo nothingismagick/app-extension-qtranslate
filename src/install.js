@@ -10,6 +10,6 @@
  */
 module.exports = function (api) {
 	console.log('NOT READY FOR USE')
-	api.render('./templates/base', {}, true)
+	api.render('./templates/base')
 	return true
 }

@@ -2,7 +2,7 @@
 // https://jestjs.io/docs/en/configuration.html
 
 module.exports = {
-  coverageDirectory: '<rootDir>/coverage',
+  coverageDirectory: '<rootDir>/test/coverage',
   collectCoverageFrom: [
     '<rootDir>/src/*.js',
     '<rootDir>/src/*.ts',
