@@ -23,8 +23,7 @@
     "precommit": "yarn test && node node_modules/.bin/snyk test && node node_modules/.bin/jest-badges-readme && git add 'README.md' && node node_modules/.bin/lint-staged",
     "postcommit": "echo 'should publish to gh-docs'"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.3.4",
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
